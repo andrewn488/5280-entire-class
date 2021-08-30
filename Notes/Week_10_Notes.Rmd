@@ -1,0 +1,169 @@
+---
+title: "Week-10-Notes"
+author: "Andrew Nalundasan"
+date: "8/27/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Colaner's Thoughts on Facial Recognition
+
++ Video: "Moral Excuses" with reference to Rationalization Analysis (from previous module)
+    
+    - "This seems ethical, but..." 
+    - Futility - it's going to be developed one way or another, so it needs to be developed by responsible hands
+    - Hurry - we need to get to this first because we need to make it benefit humanity, not harm it
+    - Ends Justify the Means - 
+    
++ NY Times Article: The Racist History Behind Facial Recognition
+
+    - THey're not talking about surveillance
+    - They're talking about using your faceprint to make inferences about the content of your character
+        - This is a scary way of using FR
+        - Guessing people's destiny by looking at their faces
+        
++ How FR Became the Most Feared Technology in the US
+
+    - Focus on how this is playing out in the law
+    - Position: Ban or No Ban?
+    - Are there permissable uses or should this be outlawed entirely?
+    - How do we use this tech responsibly?
+    - Futility issue - someone is going to develop it, so will it be developed underground or under stringent regulation?
+        - It is going to exist, but how will it exist?
+    
++ Joy Buolamwini's research
+
+    - FR tech is not accurate because training data is white male faces
+    
++ FR Technology: 
+
+    - Surveillance vs. Dataveillance
+        - Surveillance: an agency or human that is watching you
+            - Issue: Worried that the government will force you into something you don't want to do
+            - No legit use for Private and Nonprofit sectors
+            - Yes legit use in Public Sector, as long as government doesn't morph into a surveillance state
+        - Dataveillance: no person involved. Your faceprint is fed into an algorithm which pushes information (ads) out to you
+            - Issue: Interactions are manipulative. Model identifies what you like, and feeds onto your instincts
+            - Gets you to keep clicking on links that you want to click on, eventually making you radicalized
+            - No legit use in Public Sector. Becomes "Minority Report"
+            - Yes legit use in Private and Nonprofit
+    - Authentication: checking your identity
+        - Legit use of FR
+    - Public Sector - government
+    - Private Sector - for-profit sector
+    - Nonprofit Sector - hospitals and stuff
+        
++ Write down my own thoughts after reading these articles
+
+    - What, if any, should Congress decide are permissible uses?
+
+# How I am Fighting Bias in Algorithms
+
++ Make social change a priority rather than an after thought
+
++ Create a world where technology works for all of us, not just some of us
+
++ A world where we value inclusion centered social change
+
+
+# How FR Became the Most Feared Technology in the US (Shirin Ghaffary, 2019)
+
++ Banning the use of FR: bar law enforcement agencies from using FR to surveil everyday citizens
+
++ Bipartisan effort to limit the use of FR
+
++ Private companies (Apple) are OK to use FR because they must inform the consumer that it's being used and the consumer has the right to opt out of the use of it
+
++ When law enforcement uses FR, private citizens are unaware of the usage 
+
+    - Faces are monitored, scanned, and tracked
+    - Matching DL photos with mug shots in criminal DB's
+    - used by law enforcement agencies to track anyone they deem suspicious, without any reasonable evidence that they’ve committed a crime
+
++ China uses FR for mass surveillance of ordinary citizens in public life
+
+    - to target the Chinese Muslim minority
+
++ FR has track record of lower accuracy when analyzing women and POC
+
+    - This is a huge issue when people rely on the model to make life altering decisions, like whether or not someone should be arrested
+    
++ Sweet spot: how do we not target individuals but also provide support to benefit police?
+
++ FR goes beyond faces:
+
+    - License Plate readers
+    - Camera enabled drones
+    
+# New Laws for FR Tech Part I (Brian Higgins, 2019)
+
++ WA regulation will govern FR systems and the collection, storage, and usage of facial data
+
++ Face Data: involve information that can be associated with an identified or identifiable person
+
+    - supplied by the individual (an uploaded image)
+    - purchased from a third party (data broker) 
+    - obtained from public dataset
+    - collected by audio-video equipment (surveillance)
+    
++ Facial Recognition: extracting data from a camera’s output signal (still image or video), locating faces in the image data (an object detection process typically done using machine learning algorithms), picking out unique features from the faces that can be used to tell them apart from other people (e.g., facial landmarks), and comparing those features to all the faces of people already known to see if there is a match
+
++ Invasion of privacy: unconsented surveillance
+
++ Non-biometric data: replaceable data (credit cards, passwords, etc.)
+
+    - Face Data is irreplaceable
+    - If hackers get hold of this data, the individual's privacy is greatly threatened
+    
++ Bias stems from training dataset being too ubiquitous (white males)
+
++ “The only effective way to manage the use of technology by a government is for the government proactively to manage this use itself,” (Brad Smith, some executive at Microsoft )
+
++ S. 847 (the federal Commercial Facial Recognition Privacy Act of 2019)
+
+    - Requires opt-in consent
+    - Provide further information in a language the individual can understand
+        - Re: Collection, Storage, and Use of FR data
+    - Covers any person that from being assigned a persistent attribute/identifer for unique personal identification
+    - Must provide API where third parties can test for accuracy and bias
+    - Gets FTC involved
+    - This bill prohibits entities from collecting, processing, storing, or controlling facial recognition data unless such entities (1) provide documentation that explains the capabilities and limitations of facial-recognition technology, and (2) obtain explicit affirmative consent from end users to use such technology after providing notice about the reasonably foreseeable uses of the collected facial-recognition data. Facial-recognition data includes attributes or features of the face that permit facial-recognition technology to uniquely and consistently identify a specific individual.
+
+Controllers of facial recognition data also are prohibited from (1) using such data to discriminate against end users, (2) using such data for a purpose that is not reasonably foreseeable to the end user, (3) sharing such data with a third party without the additional affirmative consent of the end user, or (4) conditioning the use of a product on an end user providing affirmative consent.
+
++ SB5376 (WA State)
+
+    - Covers the processing of personal data by a processor, including personal data from FR tech
+    - Provide notice that FR Tech is being used. Consent required prior to roll out but no individual opt-in really needed
+    - Must provide documentation for consumers to understand
+    - The act restricts how private companies can use data and facial recognition technology. The bill also prohibits state and local government agencies from using facial recognition technology to engage in surveillance of individuals in public spaces, unless it is in support of law enforcement activities and obtained via a warrant or is an emergency.
+
+# New Laws for FR Tech Part II
+
++ As noted above, neither S. 847 nor SB 5376 include a private right of action like BIPA, but the new laws could allow for states attorneys general to bring civil actions against violators.  
+
++ Businesses should consider the possibility of such legal actions, as well as the other potential risks from the use of facial recognition technology and face data collection when assessing the risk factors that must be discussed in certain SEC filings.
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

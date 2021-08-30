@@ -1,0 +1,58 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Discussion 10"
+date: "August 27, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. What are your personal thoughts, feelings and concerns about facial recognition technology and its use by government and business?
+
+I think we (the US) have an advantage when it comes to facial recognition technology (FR tech) and its application by government and business. I say "advantage" because we can base our path of regulating FR tech while using China's social credit score as a model of what to expect from one extreme end of the spectrum. I am not convinced that Americans would accept this level of transparency between private citizens and government. The differences in values between western and eastern culture is evident in this issue with FR tech. We have learned about how the social credit score system is going in China and I feel that the US will never allow that radical level of civilian surveillance. There is enough political polarity on mask, social distancing, and vaccine protocol. Imagine the uproar our country would have if the government started assessing the level of trustworthiness of private citizens just by their physical appearance.
+
+I do believe in the benefits of ethical FR tech such as for the use of authentication in the Public, Private, and Nonprofit sectors. I do not see issues of using our faces to act as fingerprints to authenticate ourselves. I do have concerns around government agencies and business entities leveraging FR tech without consumer awareness. S. 847 (the federal Commercial Facial Recognition Privacy Act of 2019) and SB5376 of Washington state sound like promising regulations that could help protect consumers, but until those regulations are passed, it seems that we will continue to operate as if in the wild west. It is assuring that local regulation passed in San Francisco, Oakland, and Somerville, MA are on the cutting edge of these types of protections and setting the standard for the rest of the country. State regulation such as California's CCPA, Illinois' BIPA, or Texas' "biometric identifier" are implementing their own governance on FR tech, but these regulations seem to be piece meal solutions and not addressing the root of the issue, which in my opinion is the threat of private citizens' civil liberties being taken away by the US government becoming a surveillance state. Thus, I believe that federal regulation on FR tech is imperative to protect the civil liberties of private citizens. 
+
++ "civil liberties are something precious that we need to hold on to, hence we need heavy regulation to prevent the rise of a surveillance state"
+
+Bonus Question: what, if any, should Congress decide are permissable uses of FR tech?
+
++ Public sector vs. Private sector vs. Nonprofit Sector
+
+    - Surveillance vs. Authentication vs. Dataveillance
+    
++ Surveillance:
+
+    - Public Sector:
+        - Yes with heavy regulation
+    - Private sector: 
+        - NO
+        - Why would a for-profit company ever need to survey people's faces?
+            - Assess staff morale?
+    - Nonprofit sector:
+        - NO
+        
++ Authentication:
+
+    - Public Sector:
+        - Yes with regulation
+    - Private sector: 
+        - Yes with regulation
+    - Nonprofit sector:
+        - Yes with regulation
+        
++ Dataveillance:
+    
+     - Public Sector:
+        - NO
+    - Private sector: 
+        - Perhaps for model agency or star search when people look thru headshots?
+    - Nonprofit sector:
+        - Perhaps for running DNA assessments / biometrics?
+        - Perhaps for early disease detection?
+

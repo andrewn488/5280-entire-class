@@ -1,0 +1,27 @@
+---
+title: "Discussion 5"
+author: "Andrew Nalundasan"
+date: "July 21, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Choose one of the 12 human implicit biases that you think could become an algorithmic bias.
+
+I believe that Outcome Bias has the potential to be, and likely already is an algorithmic bias. The inherent algorithmic biases that presently exist is fueled by more data (i.e. more outcomes). Algorithms are developed with goals, or outcomes, that they are programmed to achieve. Every successful outcome aggregates to the algorithm's learning, reinforcing it to do the same thing for next time. This is great for accuracy and efficiency, but Outcome Bias happens without regard to how the past events developed. 
+
+Things are different in the real world. Data quality can be bad or good ("garbage in, garbage out"). But algorithms do not have a concept of what is inherently 'good' or 'bad'. They base their predictions on what worked last time. This reinforced behavior would not be able to recognize if the circumstances might be different in the real world, thus needing to make a different decision that goes against all other previous outcomes. Therefore, I believe Outcome bias is already present in algorithms today. 
+
+This article covers a story about a Twitter chatbot learning how to be a racist: https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist.
+
+
+2. Choose one that you think is unique to humans, and therefore will probably never become an algorithmic bias.
+
+I believe the Bandwagon Effect is a bias that will probably never become an algorithmic bias. I believe this bias is fueled strictly by emotion, which is a human trait that is absent in algorithms. When 9/10 people agree with something at a meeting, the 10th person who personally disagrees is more likely to agree with the group for the sake of fitting in. We see this behavior played out in the Asch Conformity Experiment. That being said, some people do like to play the "devil's advocate" role and disagree just for the sake of bringing up a different perspective. Regardless, both behaviors are driven by human emotion. 
+
+I do not think the Bandwagon Effect could become an algorithmic bias because an algorithm does not have the desire to belong. It will always return an answer regardless of the circumstances. As a matter of fact, anomaly detection algorithms are designed with the sole purpose of being that 10th person that disagrees with the other 9. 

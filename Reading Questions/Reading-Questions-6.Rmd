@@ -1,0 +1,96 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Reading Questions 6"
+date: "July 30, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+For each of the six following sources of algorithmic bias, locate the passage, find a description, and put it in your own words with an example. Here are the examples to find, along with the most relevant page numbers
+
+Background: 
+
+    - Conscious vs unconscious bias
+    - If an algorithm is programmed by a biased person to do biased things, the model will be biased 
+    - Machine equivalent of unconscious bias (implicit bias - bias that you're unaware of)
+    - 3 broad categories: 
+        1. arise from inputs in the model
+        2. arise from how model was designed
+        3. arise fro how the model was interpreted
+        
+6 kinds of implicit bias: 
+
+1. Use of non-representative data (pp. 684-687)
+
+The implicit bias associated with non-representative data can boiled down to "the model doesn't know what it doesn't know". The "Street Bump" example tells us how technology and big data bring a solution to fixing the potholes in the Boston area through the use of accelerometers in smart phones. The bias here is that the areas of the city with poorer demographics that don't typically have the newest iPhone or smartphone with the highest quality of accelerometers, the potholes on that side of town where the people don't have the technology goes unnoticed. Models can only make inferences based on the data that they're given, and the majority of representation in this example comes from the more affluent parts of the city. If there's no data coming from the poor side of town, the model wouldn't know to suggest fixing the potholes in that area. 
+
+This makes me think of the normalization of accessing restaurant menus through QR codes when going out to eat now post lock downs. My parents are not the best at technology, and will always prefer a paper menu over using their phone. The restaurant's clientele demographic metrics would be highly skewed to a younger target market because the website would be tracking traffic from young people's phones, and forgetting about the older demographic. The authors allude to this when they discuss big data 'dark zones' or 'shadows' where certain members of communities are disregarded and forgotten due to their lives being less 'datafied'. 
+
++ Model inputs
+    
+    - Big data is typically collected in a sloppy way
+    - accuracy is typically not there. Quantity over quality
+        - biases can arise from over collection and under collection of data
+    - CHECK PAGE 686 (error tolerance metric)
+    - collecting data to figure out who to send ads to
+        - nothing happens if the wrong person sees the wrong ad (error tolerance is high)
+        - big issue if the police arrest the wrong person (error tolerance is low)
+        
+
+2. Use of improperly interpreted data (pp. 681-684; 688-689)
+
+Improperly interpreted data can be defined just as it sounds. Data that is incorrectly interpreted based on the interpreters subjectivity or a model's intrinsic biases. Taking data for face value and not digging deeper into the minutiae. The authors discuss how the reputation of a university weighs significantly more on a resume compared to an individual's job-related skills and competencies. In this example, individuals from universities without the reputation of a top tier university may never get a chance at even an interview with certain companies if the companies focus recruitment efforts only at the most prestigious of schools. In this day and age, it's easy to get the data, but there's no guarantee on the quality of the outputs. 
+
++ Model inputs
+
+    - collected data needs to be interpreted
+    - data always has a story. There's always a context that explains its collection
+    - issues such as 'reductive' data
+        - easy to get the data, but the outputs are bad
+    - 'mis-labeled training' data
+    - 'bad proxies' 
+        - Another feature that's highly correlated with the feature that you want
+
+3. Use of accurate but historically biased data (pp. 682; 690)
+
+For better or worse, algorithms base their predictions on historical data and those decisions don't waiver as time moves on. Culture and perspective have tendencies to shift over time while historical data remains the same. For a simple example, historically, US Men's soccer had the most experience in the Olympics and competing in the FIFA World Cup. But today, the US Women's team is one of the most dominant teams in the world. An accurate model might predict the Men's team to be a top world competitor based on historical data of games played, years active, paid salary, and number of Olympics participated in. But with the rise of US Women's soccer in recent years, any non-biased person would agree that the Women's soccer team is more competitive on the world's stage compared to the Men's team.  
+
++ Model inputs
+
+    - combined with use of proxies and non-representative data, these 3 things have future issues - self-fulfilling prophesy
+    - eg.) use historical data to figure out who the best managers are
+        - model picks mostly men due to history of women not in the workplace and not in managerial positions
+    - andrew - "OF COURSE THIS HAPPENS" - bias can be passed down thru models
+
+4. Use of proxies for accurate but historically biased data (pp. 682, 689, 691-692)
+
+I understand proxies to be similar to what I would consider as metadata of a target variable. What I mean by this is that the proxies are the correlated data that are related to the target variable, which is where the discrimination comes from. A model may not explicitly discriminate on a target variable such as "race", but the proxies that are correlated with race is where the discrimination would stem. Examples of proxies would be first and last name, zip code, college education, and even extra-curricular activities of an individual. If an individual's first and last name "sound black", they live in a historically black neighborhood, and they went to a HBC (historically black college), the model could base its discrimination on these proxies, masking the discrimination from the distinct "race" variable. We've learned about the study done by Facebook where they were successful in accurately classifying people's gender, race, sexual orientation, religious beliefs, and political affiliation, just by studying what an individual "likes" while using Facebook. I would consider an individual's Facebook "likes" as these proxies. 
+
+    - proxy: what college you graduated from drives if you're cut out to be a manager
+
+5. Poorly translated problem into a target variable (pp. 677-680)
+
+    - real world problems are tough and messy
+        - must define a target variable/dependent variable when building models
+
+I relate target variables to analysts coming up with use cases, or scenarios where the application of software tools will be useful. Use cases are often limited to the analyst’s contextual understanding of how the software functionality should be applied. My understanding of target variables is similar. Target variables are what data miners are trying to define. Similar to use cases, target variables are subject to the data miner’s opinions of what’s valuable enough to track or not. The target variable can only be as accurate as the data miner’s understanding of the problem. If the data miner is biased by nature, they would likely implement a biased target variable, thus instilling bias into the model. A quick example of this could be choosing ‘zip code’ as a target variable rather than ‘credit score’ for a model that predicts credit worthiness. If an individual lives on the ‘wrong side’ of town, their zip code would influence the model’s prediction more than their credit score.
+
+6. Poorly labeled classes within a target variable (pp. 677-680)
+
+I think of the labeled classes within a target variable as the features of a target variable. The authors provide the example of a "good employee" being the target variable, and the labeled classes that define a "good employee" as "annual sales", "tenure with the company", "utilization rate and multiplier", and "efficiency". This sounds reasonable, but tends to miss the underlying aspects of the good employees that support the model "good employee" behind the scenes. I would label these classes as "ability to work with others", "active listening skills with clients", "communication skills for internal and external audiences", "ability to raise a risk and ask questions", and more. The problem with poorly labeled classes in this example is that the "boots on the ground" employees tend to be forgotten when performance is strictly defined through the traditional metrics when there's almost always a cast of characters behind a single person's success.   
+
+    - eg.) trying to predict spam in emails
+        - classes: SPAM or NO SPAM (binary classes)
+    - eg.) credit worthiness
+        - if your target is to find the best employees, how do you create variables that would capture this?
+
+
+
+

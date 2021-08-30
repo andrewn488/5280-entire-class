@@ -1,0 +1,43 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Discussion 9"
+date: "August 20, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Please comment on the idea or insight most interesting to you from "Physiognomy's New Clothes," ----  How does  "The Racist History Behind Facial Recognition" challenge or affirm that insight?  
+
+
+
+## Scientific Racism Today (Quartz) + Echoes of the Past (NY Times) + Representation (Week 3?) --> Algorithmic Bias (Joy Buolamwini) + Bias for people that look like you (Week 5?)
+
++ faception: profiles people and reveals their personality based on their facial image
+
+    - perhaps link "affect recognition" to this and link it with physiognomy?
+    
++ faception judgements: 
+
+    - "In some ways, they're laughable," she said. "In other ways, the very part that makes them laughable is what makes them so concerning."
+    
++ homophily - the pervasive cognitive bias causing people to identify with and prefer people similar to themselves
+    
+    - Darwin was the same as Shakespeare, Isaac Newton, Thomas Clarkson, John Howard - educated white males
+    
+I was shocked to see the many examples of individuals truly believing in physiognomy and demanding its practices to come back as legitimate science. The article opens with references to historic Italy and I automatically thought "that was so long ago, people know better now". But then seeing the excerpts from "The Toadstool" and the photo of the Nazi "race scientist" was sickening. Then reading about James Wiedmann and Faception left me shook. It seems that we are re-introducing antiquated ways of thinking into modern technology, like we have not learned anything from history at all. I believe that physiognomy practices have clearly been proven to be racist and destructive to humanity. To me, practicing physiognomy is a violation of ethical values because the well-being of the person analyzed is of no concern whatsoever. This is affirmed in the "Scientific Racism Today" section of "The Racist History Behind Facial Recognition" when Chinoy summarizes Clare Garvie's thoughts about Faception. Garvie states that the scores from Faception are "in some ways laughable, in other ways, the very part that makes them laughable is what makes them so concerning". We are in a time period where blind faith is abundant. Yes, in big data models like what Cathy O'Neil discusses in her TED Talk, but I'm thinking specifically of blind faith in the media. Sadly, it is not uncommon to know someone that believes everything they see on social media posts or things they find on the internet. Even more disconcerting, it is not uncommon for viewers of specific news media outlets to believe every single thing that the outlet publishes. Imagine this blind faith in the media paired with something like Faception. This laughable app could be used to score individuals as a "terrorist" or an "academic scholar", and sadly, people will believe it. The spread of misinformation and racism would explode. 
+
+Both articles allude to "affect recognition", where ML computer vision recognizes the emotions that an individual is feeling at the time a photo was taken. I agree with the AI Now report where it states that "algorithms that use these simplistic categories are likely to reproduce the errors of an outdated scientific paradigm". I believe this outdated scientific paradigm is physiognomy and that "affect recognition" is an alarming direction for technology to be advancing. An even deeper and complex layer of "invasion of privacy" would be uncovered if technology could measure and make predictions based on perceived emotions. 
+
+Blind faith in big data model predictions like Faception, and blind faith in the media. 
+
+the "Scientific Racism Today" section
+
+"The Racist History Behind Facial Recognition" affirms that this continues to happen in the "Echoes of the Past" section. Chinoy quotes Clare Garvie, a FR researcher saying that "the very part that makes them laughable is what makes them so concerning", regarding Faception's functionality to score facial images. 
+
+

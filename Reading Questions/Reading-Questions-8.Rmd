@@ -1,0 +1,43 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Reading Questions 8"
+date: "August 13, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. What does it mean that ‘willpower is a finite resource’? (996, 1033) Why is that useful for some marketers?
+
+Marketers benefit from predicting an individual's level of willpower because they aim to make sales essentially by tricking the individual into purchasing something they would only purchase during times of low willpower, also known as times of vulnerability. Marketers target consumers when willpower is at their lowest with hopes to force the consumer to act irrationally which drives them to make a purchase. The study done on women that feel most unattractive on Monday's is a prime example here. If women are feeling unattractive on Monday's, then the marketer will target these individuals with advertisements for beauty products on this specific day, at this specific time. The marketers are playing off the consumer's emotions to make a sale. Calo suggests that willpower is finite because people can have their guard up against impulse purchases (finitely), but nobody can have their guard up at all times (infinitely). Eventually, everyone breaks down and makes an impulse purchase, and the marketers try to exploit those times of irrational decision making. 
+
+2. How is "nudging" related to marketing? (1000-1001)
+
+Calo argues that marketers "nudge" their consumers to bring profits to the company. "Nudging" is exploiting a consumer's low level of willpower to act irrationally, so marketers can target when to "nudge" their target consumers into making purchases. Marketers will use the data that they have on hand to map out their target market's behaviors so they can suck as much money out of their consumers as possible. By exploiting their target market, they are able to boost their company's profits and potentially edge out any competition. Calo writes that “humans are predictably irrational” and that “people do not always behave rationally in their best interest as traditional economic models assume”, so the goal of a marketer is to “nudge” their target market into behaving irrationally.
+
+3. What is ‘personalization’ as it relates to selling? (998, 1021). Come up with an example.
+
+"Personalization" is the salesperson building a rapport and a relationship with their customer. The salesperson keys in on personal traits that make their customer feel unique. The salesperson also uses these observations to build biases about the customer to figure out how they can persuade the customer to actually make a purchase. If I were to notice dog or cat hair on a customer's clothes, I would bring up a story about pets to establish common ground and pique their interest. If they seem interested or divulge any pain points that they have been having with their pet, I would suggest using the "bark box" service where a box of curated treats and toys are sent to their house every quarter. Customers tend to have great willpower when it comes to their own desires, but tend to have less willpower when it comes to the well-being of their loved ones. 
+
+4. Consider the phrase ‘systemization of the personal’ (1020-1022). Put it in your own words. Why is this a new problem in the age of big data?
+
+I think of the term 'systemization' as 'automation' so that it becomes 'automation of the personal'. 'Automation of the personal' is the automatic collation of personal data points that big data compiles in order to build identities for their target market. No human is actually collecting this information about us. We build our own databases of personal traits and characteristics simply by using the devices we use everyday to make our lives more efficient. This becomes a problem in the age of big data because the type of information and the amount of information that is compiled about us is often collated and sold to other companies without our consent, and often can be viewed as an invasion of privacy. 
+
+In this article, Calo discusses an example of food manufacturers engineering food cravings and sending coupons or advertisements to obese people to coax them into ordering food. These temptations are true for obese people, so imagine how impossible it would be for a smoker to quit smoking or an alcoholic to quit drinking if big data floods the individuals with these temptations. The market wants to sell its products, so it creates an environment where the customer is vulnerable enough to "nudge" them to make a purchase. The problem here is that the markets are driving citizen behavior, often times without the citizen's awareness to it. This is a new phenomenon because historically, it would be the citizen behavior (demand) driving the products that are produced (supply) by a company. The cycle is now being reversed with the companies artificially manufacturing the demand while simultaneously controlling the supply. This is a new chapter of capitalism. Imagine if the focus shifted from profits to politics. The ability to drive behavior is having the power to influence political votes or even incite violence. 
+
+5. Calo proposes ‘divergent interests’ as the difference between acceptable and unacceptable marketing (1023). What does that mean? Do you agree?
+
+I agree with Calo's analysis of "divergent interests". With "divergent interests", it seems that there is always a winner and a loser. Calo writes that "true digital market manipulation deals strictly in divergent incentives". This is why it is so important for us to put a stop to having such blind faith to big data algorithms, like what we learned from Cathy O'Neil's TED Talk from last week's materials. "Divergent interests" in terms of the home buyer and buyer agent scenario is an example of unacceptable marketing. This is when the interests of the two parties involved in a business transaction contradict each other. Typically, one of the parties has more information about the situation at hand than the other, causing a severe disadvantage and exploitation to the other party. But the example of a website displaying ads that are applicable to a consumer is acceptable since the company wants to sell a product and the consumer is on the website to purchase a product. 
+
+It is fascinating that the actions and thought process of a customer leading up to a purchase is being analyzed so deeply. It seems that companies are playing off the customer's emotions to attempt to make a sale. It is unacceptable marketing when one party benefits in a business transaction at the expense of the other party. In the "housing buyer agent" scenario, the buyer agent has the fiduciary obligation of fair dealing toward the buyer. This is great for the protections of the buyer. But there are many other scenarios when there is no fiduciary duty of one party to act in the other party's best interest. People are being taken advantage of all the time, and digital market manipulation is exacerbating this phenomenon. 
+
+6.How is the ethical value of autonomy relevant here? (1032-1034)
+        
+The main theme that I takeaway from this article is that companies are hijacking customer autonomy. Customers no longer behave independently. Calo includes many arguments describing how companies manipulate their consumers into acting irrationally, leading them to make purchases that they would not make under normal circumstances. It seems that companies are finding ways to create emotions in their customers, and exploiting those emotions to drive behavior. Calo points out that "the entire point is to leverage the gap between how a consumer pursuing her self-interest would behave leading up to the transaction and how an actual consumer with predictable flaws behaves when pushed, specifically so as to extract social surplus". This means to me that companies are essentially manipulating consumers to behave *not* in their own self interest by exploiting customer vulnerabilities. In this sense, companies are not concerned about their consumer's well-being. They are only concerned with making sales, which leads me to believe that digital market manipulation marketing tactics are unethical. Having the power to drive behavior like this steals a consumer's autonomy over their own actions, causing them to behave irrationally in ways that harm their well-being. In the age of big data, it is becoming easier to identify these vulnerabilities and easier for marketers to exploit them. 
+        
+        
+        

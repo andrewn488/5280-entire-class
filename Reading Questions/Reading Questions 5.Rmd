@@ -1,0 +1,49 @@
+---
+title: "Reading Questions 5"
+author: "Andrew Nalundasan"
+date: "July 23, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. What is the basic difficulty in wanting explainable artificial intelligence? (4-5)
+
+Artificial intelligence is naturally difficult to explain due to the algorithmic "black box". It's even difficult to explain something simple like "why did the glass break?" due to the infinite variations that could accurately explain why the events happened. Explanations for algorithms would not be any different. There would be an infinite number of reasons why and how models return the outputs that they do. There's no distinct explanation that could be used to depict why and how the algorithms come up with the automated decisions. 
+
+2. What are some ways to describe “inscrutability”? When are models “inscrutable”? (12-14)
+
+"Inscrutability" is when a model is so complex due to numerous rules, constraints, and interdependencies, that it's difficult for a human to follow along the process and prove why the model produced the output that it did. If a human has difficulty following the logic a model took to get to a decision, that indicates that the model has become "inscrutable". It's even possible for the people that engineered the models to believe that they've developed something that has become "inscrutable." This is the opposite of what the authors call "simulatability", where it's possible for a person to execute the model in their mind and mentally simulate what it would do. 
+
+3. What makes something intuitive? How is this different than "understandable"/"interpretable"? (14-15)
+
+The number of dimensions helps drive intuitiveness. Humans can intuitively understand models with two dimensions and sometimes three dimensions. But the more dimensions that are added, the more difficult it is to understand the full set of relationships that the model presents. "Intuition" is when humans process information without being able to rationally engage with it. I think of this as "going with your gut feeling". Understanding and interpreting is different because humans can apply rationalizations to the data in order to understand and interpret. While with intuition, you usually have to go with your gut, which can be difficult to explain. I think that if something is intuitive, a human can generally understand what's going on and be able to explain why it happens. When something is intuitive, we can weave a story together that makes sense. 
+
+4. Why might the non-intuitiveness of models be blamed on correlation? Why do the authors insist it should not be? (15-16) Do you agree with the authors?
+
+The reason why models are not intuitive is because the models function on correlation rather than causation.  The authors insist that non-intuitiveness should not be blamed on correlation because it takes "causation" to weave a sensible story together, not "correlation". Models detect correlation, not causation. We've learned that correlation does not automatically imply causation. Even if models detected "causation", the authors insist that it wouldn't make the models any more intuitive. 
+
+5. Why do we want intuitive models, according to the authors? Why does that open new possibilities for XAI, according to the authors? (17)
+
+The authors lobby for intuitive models to ensure that humans are able to determine the reason why and how the automated decisions were made. Humans must be able to determine if a model's decision making is accurate and fair. Rather than simply simulating the models in one's mind, the authors insist on humans having the ability to evaluate the models and determine if it's valuable or not. The authors elaborate on how using strictly training data does not account for real world scenarios where things change. Models only make predictions based on what has already happened in the past, meaning their decisions and predictions would never invoke change, even if change was needed. A human would be able to recognize this while an algorithm would not. 
+
+The authors are looking forward to explainable artificial intelligence so that we can figure out how to regulate them. It's difficult right now, because we're unable to explain what's happening within the "black box". But once we fully understand what's going on under the hood, we'll be able to regulate the algorithms and prevent algorithmic bias before it happens. 
+
+6. What are the two areas where we might want explanation? (18)
+
+Two areas that we might want explanation: 
+
+    1. Accounting for Outcomes - how particular inputs lead to a particular output
+    2. Logic of decision-making - full or partial descriptions of the rules of the system
+
+7. What ethical and legal values led people to attempt to solve a past inscrutable system (credit scoring)? Tell the story! (18-26)
+
+I feel like it was perfect timing for credit scoring to gain popularity in the 1950s-1960s, due to the alignment of the Civil Rights Movement during the same time frame. America was at a boiling point when it came to racism and equality. During this post WWII time, Americans were sprawling out to the suburbs to stake their claim at the American dream. I'm sure that egregious discrimination was happening constantly on who received and did not receive credit from credit agencies. These were most likely discrimination on people of color that were applying for loans to buy a house, a car, or perhaps an education. The marginalized populations likely lost trust with the US government, banks, and credit agencies, because they knew they were being blatantly discriminated against. I like to think that the legislators of this time  were motivated to pass FCRA and ECOA to regain trust and advocate equality for the people most effected.  This speaks volumes about the people's virtue that helped push these laws to be ratified. As we've learned in this class, regulation is slow to respond to present matters. I believe ECOA was passed in the 1970s to help grant equal protections to the marginalized that dedicated their lives to the Civil Rights Movement of the 50s and 60s. This was a big win that granted happiness to those most effected. FCRA and ECOA weren't 100% perfect, but I believe they were starts in the right direction. They were the first laws put in place to regulate an unregulated space. 
+
+8. How does the GDPR attempt to solve the problem of inscrutability? (26-29)
+
+The GDPR attempts to solve inscrutability by giving power to the data subjects to be informed about the data that is being used to make decisions about them. The GDPR empowers data subjects with awareness and education about the automated decision-making that effect their lives, so they can ensure that they are not being discriminated against. Under the GDPR,  it is possible for companies to be required to fully disclose the full set of rules that govern the decision making, sometimes the entire model. So I see the GDPR as government stepping in to regulate something that was previously unregulated. It provides a forum for data subjects to question the automated decisions. The Data Protection Directive was in place for years, but it seems like it wasn't taken very seriously. 

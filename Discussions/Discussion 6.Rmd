@@ -1,0 +1,95 @@
+---
+title: "Discussion 6"
+author: "Andrew Nalundasan"
+date: "July 30, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+As you prepare for online Discussion 5, let these questions guide your preparation. These questions do not need to be answered in written form or turned in - they are just to guide your personal reading of the article:
+
+1. In your own words, what is the difference between decisions based on system functionality, and specific decisions (78)?
+
+*System functionality* is the 'what' and *specific decisions* is the 'why'. System functionality is the bones of the model and the specific decisions are the criteria and weighting of the model that drives the outputs. 
+
+*System functionality is an explanation on what the system was designed to do. 
+
+*Specific decisions* take decision that have already been made, and rationalizations are made to explain why the specific decision was made. *Specific decisions* cannot be explained *ex ante* because the decision has not been made yet. 
+
+Ex ante can only be done for *system functionality* because it's an explanation on how the system is meant to behave. Ex ante explanations cannot happen for *specific decisions* because that decision has not been made yet, so the rationalizations and criteria weighing has not taken place. 
+
+2. In your own words, what is the difference between ex ante and ex post decisions (78)? How is that different than the other distinction?
+
++ an *ex ante* explanation occurs prior to an automated decision-making taking place. Note that an *ex ante* explanation can logically address only *system functionality*, as the rationale of a specific decision cannot be known before the decision is made
+
+    - explains *how* it works, but can't explain *why* it works because the decision has not been made yet
+
++ an *ex post* explanation occurs after an automated decision has taken place. Note that an *ex post* explanation can address both *system functionality* and the rationale of a *specific decision*.
+
+3. Imagine these two distinctions coming together in a matrix. Give an example of each box by thinking about possible explanations given by CRA’s (credit reporting agencies)? (78b-79a)
+
++ ex ante:
+
+    - prior to the decision being made
+    - the system provider can inform the data subject about the system functionality
+    
++ system functionality: 
+    
+    - general logic: 
+        - types of data and features considered
+        - categories in the decision tree
+        - purpose or significance 
+        - envisaged consequences 
+        
++ ex post: 
+
+    - After a decision has been made 
+        - an explanation of system functionality can still be provided to the data subject. However, the provider can also explain to the data subject the logic and individual circumstances of
+        
+        
++ specific decision: 
+
+    - predictions about the rationale
+
+4. Consider a potential ‘right to explanation’ derived from ‘safeguards’? Considering both the article and the actual text of the GDPR, do you believe that amounts to a right to explanation? (79a-82a)
+
+I believe the right to explanation is implied within the GDPR. I theorize that the implication of the right to explanation was included in the final version of the GDPR rather than explicitly stating it (how it was included in the European Commission's 2012 version of Article 20) to give room for interpretation of the regulation. It feels like the legislators intentionally omitted the explicit terms "right to explanation" to avoid crippling businesses to operate.  
+
+Beyond a reasonable doubt
+
+5. Consider a potential ‘right to explanation’ derived from ‘notification duties’’? Considering both the article and the actual text of the GDPR, do you believe that amounts to a right to explanation? (82a-83a)
+
++ Individuals need to be notified whenever automated decisions are being made on them or for them, which is made up of: 
+    
+    - the logic involved
+    - significance
+    - envisiaged consequences
+    
++ Notification of decisions can only be made after the fact because logically, notifications about a decision can only be made after the decision has already been made. 
+
++ Article 13-14:
+
+    - creates notification duties for data controllers
+    - cannot be invoked by the data subject
+
+6. Consider a potential ‘right to explanation’ derived from ‘a right to access’? Considering both the article and the actual text of the GDPR, do you believe that amounts to a right to explanation? (83a-84b)
+
++ Data subjects are granted the right to be informed about the existence of automated decision-making and to obtain meaningful information about the significance, envisaged consequences, and logic involved.
+
++ Article 15: 
+
+    - establish a corresponding right of access for data subjects
+    - must be invoked by the data subject
+    
++ the German translation suggest the "right to access" is more about providing a disclaimer to data subjects so that they know what they are being subject to, rather than the right to explanations *ex post*
+
+Discussion: In this discussion, summarize the argument by the authors that there is not, and then argue for your own position on this issue.
+
+According to the author's definition of "right to explanation", they demand four distinct attributes for a data subject to have this right in the fullest sense of the term. These attributes are: *system functionality*, *specific decisions*, *ex ante*, and *ex post*. Quickly summarized, these are four distinct types of explanation that support an individual's full "right to explanation". There is a "timeline problem" scenario, which is the logic of *ex ante* only being able to explain *system functionality* because the *ex ante* is an explanation before a decision is made, which can't happen before a *specific decision* is made since the *specific decision* is an explanation of the rationalizations that went into making the decision. A bit of a "chicken or the egg" scenario. They continue their case discussing how it would take three distinct legal cases to truly make the GDPR provide the "right to explanation" which are derived from: safeguards, notification duties, and the right to access. A mixture of *system functionality*, *specific decisions*, *ex ante*, and *ex post* can be found in each of these three elements, but never available all at the same time in any of the legal bases. The authors argue that the explicit language for the "right to explanation" was in the original draft of the GDPR, but was removed prior to the official passing of the legislation.  
+
+I agree with the authors that the "right to explanation" is not explicitly included in the GDPR. But I want to argue that it doesn't need to be. I like to think that the legislators that passed this regulation were intentionally keeping the language open ended to leave room for interpretation depending on the scenario. The authors do a great job of including what the GDPR does explicitly cover through safeguards, notification duties, and the right of access. These legal bases would be enough to "obtain human intervention, express views, or contest a decision, but not to obtain an explanation of the decision reached." This indicates to me a possible loophole that the legislatures left in the GDPR to allow for companies to avoid having to explain inscrutable systems. It seems to me that the GDPR was written to empower data subjects to raise their hands when they want more information, without having to cripple businesses from operating within our current digital landscape. I believe that the authors' motivation to push for the "right to explanation" could stem from the demand of the explanation of inscrutable systems. When we are able to explain inscrutable systems, specific regulation can be developed to create preventative protections for those most impacted by algorithmic bias, using the GDPR as a baseline. Until then, the regulations seem to be reactive to algorithmic bias. Regulation is slow to follow technological innovation, but I believe the GDPR is the necessary first stepping stone in the right direction. 

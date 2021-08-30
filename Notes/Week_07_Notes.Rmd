@@ -1,0 +1,231 @@
+---
+title: "Week-7-Notes"
+author: "Andrew Nalundasan"
+date: "8/1/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Chapter 35 textbook readings
+
++ Title VII Discrimination laws
+
+    - Job discrimination against employees, applicants, union members on the basis of:
+        - Race
+        - Color
+        - national origin
+        - religion
+        - gender
+        - age
+        - disability
+
++ Equal Employment Opportunity Commission (EEOC)
+
+    - Monitors compliance of Title VII
+    
++ Prima Facie ("at first sight")
+
+    1. Plaintiff is a member of a protected class
+    2. Plaintiff applied and was qualified for the job
+    3. Plaintiff rejected by employer
+    4. Employer continued screening applicants and filled position with individual from a non-protected class
+    
++ Intentional Discrimination: 
+
+    - disparate-treatment discrimination
+    - purposeful treatment that is distinct on an employee based on their protected class status
+    
++ Unintentional Discrimination: 
+
+    - protected classes are adversely protected by an employer's practices
+    - disparate-impact discrimination
+        - when a protected group of people is adversely affected by an employer's actions, even though they do not appear discriminatory
+        - affecting disproportionately members of protected or non-protected classes
+        
+    - pool of applicant's test: 
+        - Plaintiff shows percentage of the protected class in employer’s workforce does not reflect percentage in local labor market
+    - Rate of hiring: 
+        - Plaintiff compares selection rates of members of protected class with nonmembers in employer’s workforce. Less than 80 percent may show disparate-impact discrimination
+        - business necessity for the Police Officer/Firefighter MUST be able to lift 100 lbs gear and run a mile in 8 minutes. No discrimination between male/female. This is a BFOQ on gender
+    - Religion can be BFOQ if a Catholic Parish needs to hire a Catholic youth leader
+    - Race/Color/National Origin can NEVER be a BFOQ
+        
++ policies that discriminate are illegal, unless they have **substantial** demonstrable relationship to realistic qualifications of the job
+
++ reverse discrimination protects white males
+
++ gender discrimination includes:
+
+    - pregnancy 
+    - wage discrimination
+    - transgender folk not protected but it has become increasingly popular to protect this class
+        - sexual orientation is encapsulated but not protected
+        - sexual orientation not explicitly protected in Title VII
+    
++ sexual harassment
+
+    - quid pro quo - demands for sexual favors in return for job perks
+    - hostile work environment - workplace is permeated with discriminatory intimidation
+    - the law interprets sexual harassment in terms of who the harasser is
+        - Harassment by supervisors
+            - Supervisor AND Company are held accountable
+        - harassment by Coworkers and Others
+            - Employer is held responsible if they knew about it and failed to take action
+            - turning a blind eye will hold the employer accountable
+    - sexual harassment can happen electronically
+        - it's easier to dig up deleted files than you think. Electronic forensics can recapture communications!
+        
+            
+    
++ disability (ADA)
+
+    - Reasonable Accommodation: If an employee with a disability can perform the job with reasonable accommodation, without undue hardship on the employer, the accommodation must be made.
+    - Many unseen disabilities that are protected
+    - Reasonable accomodation required that does not create an undue hardship on the employer
+
+- age: 
+
+    - Procedures under the ADEA: Plaintiff must show discrimination was THE reason for adverse employment action and establish but for causation (“but for” the employee’s age, the action would not have been taken).
+    - 40 years and older - discrimination based on age
+
+- Defenses to claims of discrimination:
+
+    - Business Necessity: 
+        - Requires employer to demonstrate a job qualification is reasonably necessary to the legitimate conduct of employer’s business. Business necessity is a defense to disparate impact discrimination.
+    - Bona Fide Occupational Qualitifcation (BFOQ): 
+        - Employer must prove that discrimination against a protected class is essential to a job and a BFOQ. Race, color, and national origin can never be BFOQs. Courts have generally restricted the BFOQ defense to situations in which gender or religion is essential to the job (such as dressing room attendants). 
+    - difficult to distinguish these two
+    - Objective: permit the employer a defense
+        - defense for disparate-impact 
+        
++ Title VII neither requires nor prohibits affirmative action
+
+    - can only make up for past discriminations
+    - once purpose is accomplished, protocol can stop.
+        - if this begins to impact the majority class
+        - because the situation has been equalized
+    - should never have a quoto or anything like that
+    - Equal Protection issue:
+        - all of us should be equally protected by the law
+    - Affirmative Action is constitutional only if used to remedy past discrimination and not to enforce a quota or preference
+        - Once affirmative action has accomplished the program, it should stop
+# Employment Law and Discrimination in Employment
+
++ Employment "at will" - still have protections from being fired for discriminatory reasons
+
+    - US is pretty much opposite of Europe
+
++ Regulation: Title VII of the Civil Rights Act
+
+    - Applicable to businesses in interstate commerce with 15+ employees
+    - All individuals fall into at least 1 protected class
+    - Employers must reasonably accomodate religious practices
+    - A program is constitutional only if it attempts to remedy past discrimination and does not use quotas or preferences.
+
+# Employment Law and Protection from Discrimination
+
++ stare decisis: 
+
+    - definition here
+    
+# IRAC method applied to an employment discrimination case
+
++ IRAC: 
+
+    - legal reasoning process that is used to decide cases regardless of length and complexity.
+    - Issue > Rule > Application > Conclusion
+
+    1. **Issue** — What are the legal issues or questions that arise out of the facts of the case or situation? 
+    2. **Rule** — What rule of law applies to the case? Or rules?
+    3. **Application** — How does the rule of law apply to the particular facts and circumstances of this case?
+    4. **Conclusion** — What conclusion should be drawn? 
+
+
+# Employing AI, Charles A. Sullivan, 2018
+
++ "hard data can dwarf "soft variables" even if the latter are more important
+
+    - THICK Data!!
+    - Qualitative over quantitative data 
+    
++ Title VII statutes don't care about increasing productivity as long as discrimination is not involved
+
++ Disparate Treatment: 
+
+    - Employer treats people less favorably than others because of race, religion, sex, or national origin
+    
++ Implicit Bias: 
+
+    - actionable decision that flows from unconscious impulses
+    
+# Weapons of Math Discruction lady
+
++ Algorithms sort winners and losers
+
+    - Winners get the job
+    - Losers don't even get an interview
+    - What if the algorithms are wrong?
+    
++ Algorithms need:
+
+    - historical data from the past
+    - what you're looking for/hoping for (target variable)
+        - what is associated with success?
+        
++ Algorithm Rules
+
+    1. Algorithms are opinions embedded in code
+        - Marketing trick: algorithms are fair 
+
++ Blind Faith
+
+    - Value added model
+    - Bad design on algorithms can fly under the radar
+    
++ Algorithms don't make things fair
+
+    - They automate the status quo
+    - They repeat past practices and patterns
+
++ Data laundering
+
+    - masking data as objective
+
++ Algorithmic audit
+
+    1. Data integrity check
+        - Whites and Blacks smoke weed at the same rate but black people are incarcerated more for it 
+    2. Definition of success
+        - Employee supported by the company culture
+    3. Accuracy
+    4. Long term effects of algorithms
+        - Feedback loops
+    
++ Arbiters of truth
+
+    - Arbiter: Person who settles a dispute or has ultimate authority in a matter
+    - Data scientists should not be the arbiters of truth
+    - Facebook should not be the arbiter of truth
+
++ Translators of ethical discussions
+
+
+
++ this is not a math test, this is a political fight
+
++ era of blind faith in big data must end. 
+
++ 3 things from readings and presentations in this module: 
+
+    1. Cathy explains that one of the places where bias can be programmed is through determining what is successful. In this example, the hiring algorithm actually reinforces racist and sexist practices that it was programmed to eliminate.
+    2. 
+    3. 
+    

@@ -1,0 +1,30 @@
+---
+title: "Discussion 4"
+author: "Andrew Nalundasan"
+date: "7/12/2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. What do you think?  Share your reflection and thoughts in this online discussion.
+
+
+From what we've learned so far, it seems like the data that's being collected about us to make life impacting decision is very similar between the US and China. The main difference that I'm seeing is that China is transparent about it while the US is not. The sheer amount of data and the level of granularity it is collected is unsettling. I am embarrassed about not knowing how intrusive big data is. Many people, including myself, do not even realize that this is happening, and we continue to hand over our data willingly. In Joy Buolamwini's interview, she states that "we need laws, regulations, and external pressure for companies to respond" to the quantitative bias that big data has on individuals. She explains that "the change will not come from within alone" unless the necessary regulations are put in place to help protect Americans. These technologies are used 24/7 and accuracy ratings improve with the more data that is provided. I agree with Buolamwini that we need our government's help to protect us from the impacts of these biases. Algorithmic auditing is a step in the right direction, but it is too slow of a process to keep up with pinpointing these biases.
+
+I do like China's approach because people are aware of their environment, enabling them to be cognizant of their actions, whether online or in the physical world. What I dislike about China's approach is that it is up to their government to determine what topics are taboo to search for or what behaviors and purchases indicate characteristics of 'responsibility' or 'laziness' of an individual. Over time, people will begin thinking and acting exactly the same, thus removing any kind of diversity among the people. By forcing people to think and act in a specific way kills culture and prevents social progress and technological improvements. There are certainly the benefits of increased efficiency and positive behavior due to the Social Credit Score, but I feel like there's another side of the coin where black markets could be developing or a rise of factions that will eventually rebel against the system, perhaps in a violent manner. We have seen throughout history that those that are oppressed (D rating or < 600 points, labeled as an "untrustworthy citizen") will reach a breaking point and lead to some sort of political unrest. Lydia Shompole's podcast discusses the downstream effects the Chinese social score has on individuals, such as depression, anxiety, suicidal tendencies, and other mental burdens. It seems like there's little room for forgiveness or redemption if your social score takes a nose dive. 
+
+In the US, people can be completely unaware of the downstream effects that their Google searches could have on their credit approval. 
+I agree with Katarzyna that we need to stop and ask the question "but are we really that far off ourselves?". 
+
+It feels like such a capitalistic approach to life - having the knowledge of this quantitative bias can make or break you. 
+
+Conversely in China, at least everyone is on the same playing field in terms of knowledge of the situation that they're in. Some people may compete and use it to their advantage. For others, someone may be plagued with a string of bad luck of "wrong place at the wrong time" type of situations, which would dig them into a hole that they may never be able to get out of. Something that China's approach is missing is the chance of forgiveness.
+
+With a post-pandemic world becoming more of a reality every week, people are talking about having to readjust to "normal" life and remember how to act in social settings after the past 12+ months of COVID lock downs. Imagine how it must feel to be released from prison after serving 5, 10, or even 15 years of being incarcerated. People are still given a second chance at living out their lives. Yet it seems that if your social score takes a nose dive, the chances of you climbing back up to a "normal" score are slim. 
+
+

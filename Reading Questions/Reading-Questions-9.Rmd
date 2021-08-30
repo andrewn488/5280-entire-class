@@ -1,0 +1,27 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Reading Questions 9"
+date: "August 20, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+"What we need is a wholesale shift in how we define and assign ownership of data assets and how we establish, manage, and protect our identities in a digital world. Change those rules, and we end up changing everything. It is a revolution to be sure."
+
+The author goes on to propose blockchain as the solution. Please explain what this would require and how it would solve the privacy and identity monetization issues he calls out, amongst others.
+
+Do you agree with the author's position?  In answering this last question please use references from the article and from our previous modules. This article, in a way, is a capstone to the legal issues of privacy, identity and bias that you have been learning about and contemplating since module one.
+
+
+Using blockchain as the solution to liberating digital feudalism would entail all data subjects to recognize blockchain as the universal digital landscape. Tapscott's entire article is centered around "Big Data" being the kings of the digital landscape, and the consumers (us) as the peasants and serfs. Big Data profits off a raw resource that they harvest from us for free. All profits that Big Data makes is thanks to the raw data that we produce, our digital identities, and we get nothing but "a few cabbages" in return. Tapscott's proposed solution is to have blockchain host identities where the data subject is the true owner, not some third party company that profits off the sale of our data. Blockchain is a highly secure system where data breaches and hacking are minimized due to the complexity of the network of blockchains. As the blockchain grows, it becomes increasingly difficult to hack and each transaction must be verified by all members within the chain. Thus, authentic transactions and identities will be recognized with no third party collecting or storing of any private data. This would solve the privacy and identity monetization issues Tapscott calls out because the data subject would have complete autonomy over who they choose to share their data with.  
+
+I agree with Tapscott that using blockchain is a viable solution. Although, I'm skeptical about the availability of this solution to all individuals. Blockchain is a complex concept to grasp, and I feel that only the privileged and educated would have access to join this revolution. We have seen past biases stemmed from the difference in access to specific technologies like the use case found in Boston after implementing the "StreetBump" application (The Hidden Biases in Big Data, 2013). I do not see how Tapscott's blockchain revolution solution will be "user friendly with a low-tech mobile interface and low-cost dispute resolution" (Digital Feudalism: Taking Your Identity Back, 2019). I see this intended control on inclusion being overlooked, where the early adopters will be the highly educated with more resources than the minority, which would maintain the divide in "the rich seeing a different internet than the poor" (Kate Crawford: Big Data Gets Personal, 2013). But perhaps the blockchain revolution does not need to happen with a big-bang. Perhaps it can be an ongoing revolution that people slowly begin to adopt. Certainly there was skepticism around housing personal data "in the cloud" before it became standard practice. 
+
+Whether blockchain is the answer or not, I do believe that we must find a solution soon. Privacy should be considered to be an innate human right as suggested by the OECD Privacy Framework, 2013. Majority of babies born in recent years will have their entire lives documented on the internet and they currently have no control over their digital identities. Every individual should have control over their digital identity, not the internet landlords that profit off of our information. Along with the right to privacy comes the "right to be forgotten", and that can only come when we have complete autonomy over our digital identities. 
+

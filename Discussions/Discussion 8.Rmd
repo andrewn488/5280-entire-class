@@ -1,0 +1,22 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Discussion 8"
+date: "August 13, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. In the powerpoint presentation "Data Law and Ethics for Organizations," we discussed the term 'big data solutions.' For this discussion, imagine that you are a consultant brought in to a for-profit organization, and your task is to advise the executive team about how to incorporate big data solutions into their business model in a legal and ethical way. Using your own words, give them your best big picture advice to incorporate big data solutions.
+
+Leveraging 'big data solutions' (BDS) is the key to this organization's future success. We are in the age of big data, so we must leverage BDS to run this company. We need BDS to make sense of what our customers wants and needs are and match them to the company's services, features, and benefits. Customer behavior changes rapidly, which means the company must be able to pivot along with their wants and needs to retain customers and market share among the competition. If we fail to do so, we will be left behind. We must be strategic with incorporating BDS into our business model. We should not sit back and be reactive to how the market fluctuates or how the company shifts as staff come and go (Laissez-Faire approach). Doing the bare minimum to maintain compliance with existing law and ethical standards will not help advance the company forward (Compliance approach). As Amazon is "customer obsessed", it is time to be proactive in also being "employee obsessed" by updating company values to match the needs and wants of the employees (Strategic approach). 
+
+BDS can be applied internally within the company to manage promotions, pay raises, and project staffing. Incorporating BDS into the business model means leveraging ethical and legal values into building the organization. Employees will stay if they are paid well, feel engaged in their work, and take pride in what they do. We are in the middle of the "Great Resignation", so the company must attract and retain top talent for the business to grow. Companies cannot buy top talent anymore. Top talent must be earned by promoting the right people internally, keeping employees engaged, and making adjustments to the company culture as it matures as staff matures. Nothing is stopping employees from moving to other companies that better align with their personal values. Companies need to take employee churn seriously, and BDS will help manage this. BDS can be applied externally to better understand our customers and better match our services with their wants and needs. If we disappoint our customers, it would be incredibly easy for them to find alternative companies that provide similar services and leave us completely, contributing to customer churn. For this company to be successful, we must leverage BDS to attract and retain both customers and employees. 
+
+
+

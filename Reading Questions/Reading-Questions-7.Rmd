@@ -1,0 +1,107 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "Reading Questions 7"
+date: "August 6, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Is the current landscape of U.S. employment law, specifically Title VII, sufficient to protect against employment discrimination when "Arti" is in charge?
+
+Given the language of the Title VII regulation and with Arti in charge, I do not believe that it would be enough to ensure equal opportunity to applicants or employees at any stage within the hiring process. Since the EEOC does not investigate every claim of employment discrimination, I believe that having an agent such as Arti identify job applicants would be a step in the wrong direction. Sullivan makes the point that "regulations formulated 40+ years ago don't map well onto Arti's actions". Sullivan does a great job of breaking down and applying the Title VII regulation to Arti's actions. Sullivan describes Title VII violations to be comprised of the two elements of "disparate treatment" and "disparate impact". The interpretation of the "disparate treatment" element has led to requiring proof on discriminatory "motive", or discriminatory "intent". Arti being a machine, never has "motive" or "intent" when it comes to its actions. Arti only does what it is instructed to do: "pick good employees", which is devoid of "motive" and "intent". With such a broad objective and all the data from past and present employees, Arti can base its decisions however it can, which would lead to an inscrutable system. At some point in the decision process, Sullivan suggests that "Arti will use proxies for the forbidden traits to achieve results what it would have done [if Title VII elements were ruled out of bounds]". These are the implicit biases that we have been learning about all quarter. The applicants would not know if they had been discriminated against, and the hiring manager at the company would not be able to explain how the decisions were made. Even if an applicant could prove that they had been discriminated against, the chances of the EEOC investigating the incident even further would be slim. This outlook seems like a dismal uphill battle from the outset. 
+
+
++ The employer’s reliance on the algorithm may be job-related, but the algorithm itself is measuring and tracking behavior that has no direct relationship to job performance.
+
++ there is no good reason to treat Arti differently from a human when it uses explicit race or gender classifications, there is no good reason to treat its use of a neutral criterion differently than if human agency devised the same selection criterion
+
++ Target Variables:
+
+    - sought after characteristics for better workers
+    
++ Guidelines: all 3 elements require evidence of a sufficient relationship between the selection device and the job performance it is designed to predict
+
+    1. Criterion
+    2. Content
+    3. Construct
+
++ Big data: 
+
+    - The value of Big Data is that it can discover correlations that are hidden from human perception and, indeed, perhaps beyond human explanation
+    
++ statistical significance: 
+
+    - correlation is sufficiently unlikely to be the result of chance
+    
++ practical significance:
+
+    - focuses on the magnitude of the correlation
+    
++ Disparate Impact:
+
+    - when a protected group of people is adversely affected by an employer's actions, even though they do not appear discriminatory
+
++ Disparate Treatment
+
+    - literal sense of the term. straight up racist. 
+    
+2. Reference the racial equity data analytics framework promoted by Kennedy (page 29-35). This framework is intended to help guide organizations through a process of uncovering internal and external racialized barriers for their employees. Assume your organization adopts the framework in its effort to promote racial equity. Make the case that this use is lawful and acceptable using the cases and legal arguments used in the article. You may also apply ethical arguments to support the use of this framework.  
+
+The implementation of this framework would be a win-win situation for the organization and its employees. If certain individuals are being discriminated against, the data would be able to "back up" claims of racialized barriers, and measures could be placed to correct this. If no discrimination is found, then the framework would be in place to continue collecting this data to ensure that no discrimination arises in the future. By having the framework in place, the company would quantitatively know who the top performers are and who deserves to be promoted based on merit rather than any other metric.
+
+Many of the cases reviewed in this article support the notion that diverse teams enhance team dynamic and productivity. We see this in *Fisher v. University of Texas*, where the court asserted that having a diverse student body enhances the educational experience. Additionally, Supreme Court Justice Ginsburg favored "race consciousness" over "race neutrality", affirming that there are "positive qualities to a diverse student body". This application of the law lead to the affirmative action section of the article, where it is stated that the *Regents of the University of California v. Bakke* rationale embraced the notion that "[classroom] discussions would be livelier, more spirited, and simply more enlightening and interesting, if the participants had diverse backgrounds and perspectives". These conclusions on "race consciousness" and "diversity" should be applied to the workplace to achieve all the benefits outlined in these past cases. 
+
+We learn in the article that Affirmative Action policies are not widely practiced in the workplace. Kennedy states that "racial equity should be a shared goal of government (including public employers) and its citizens, in furtherance of the Equity Protection Clause". So, the implementation of the racial equity framework in an organization would promote racial equity for existing staff and bring diversity to the workplace in the right ways, rather than attempting to meet quotas or "attaining" diversity. A balanced workforce would reflect the benefits identified in the affirmative action cases such as *Bakke*. But through this framework, diversity would be achieved qualitatively with "thick data" rather than quantitatively through the meeting of quotas or racial preference. Each of the five elements of the framework are additional data points that the organization could easily capture. Applying this framework would motivate the entire staff to perform to the best of their abilities with aspirations to move up within the organization. By cultivating this type of workplace culture, productivity and tenure would increase across the company.  
+
++ It's understandable how difficult it is to promote diversity by employing non-discriminatory practices without reverse-discriminating. 
+
+"...to assess measurable outcomes disaggregated by race". 
+
++ Regents of the University of California vs. Bakke - affirmative action attempting to advance equity on African American and PoC student applicants. 
+
++ Grutter vs. Bollinger: “no workable race-neutral alternative would produce the educational benefits of diversity.”
+
++ Following Fisher, courts will apply strict scrutiny to university policies that consider race in admissions policies and procedures and require a showing by the university that “race-neutral alternatives” would not produce the same result.
+
++ They have focused so much energy on lowering the ceiling, that they have not fully leveraged their collective power to raise the floor.
+
++ Legitimacy of a data analytics framework designed to generate meaningful and measurable outcomes for advancing workplace equity.
+
++ Using data to advance racial equity across the workforce development ecosystem
+    
++ workplace equity strategies
+
+    - must be specific, strategic, and measurable
+    - after the root cause
+    
++ Racial Equity Research Study (RERS)
+
+# Discussion 7
+
++ 3 elements to support my case: 
+
+I agree with Cathy that we as data professionals should strive to be "translators of ethical discussions" rather than mere "arbiters of truth". I believe that the role of data professionals is centered around the communication of data. We are the ones that are telling the stories that the data shows us. We are "translating" these patterns into stories, and thus communicating these stories to others. As with all story telling, exaggerations are bound to happen, sometimes spinning the overarching messages to reflect our own personal beliefs and biases. Cathy mentions in her TED Talk that we are all biased and bigoted, regardless if we recognize it or not. That's why I side with being "translators of ethical discussions" because I do not believe that we should have the final say in what "truth" is or not, just by having the title of "data professional". Our opinions and translations can change as more data is collected, and that's OK. Being a translator of ethical discussions puts the onus on us to ask the tough questions and have these meaningful conversations about the ethics of big data. "Discussions" are where multiple people are communicating, while an "arbiter of truth" is just one person that settles a dispute or has ultimate authority in a manner. Discussions and translations will ebb and flow while an arbiter is completely one sided. In past class discussions this quarter, many of us have made comments around "the ethics of big data and data privacy are such big issues, yet nobody seems to be talking about it". We as data professionals need to be the ones that bring these issues to light.  
+
+This article discusses the increasing need of a new role within data science teams called the "data bridge" (https://sloanreview.mit.edu/article/to-succeed-with-data-science-first-build-the-bridge/?_ptid=%7Bjcx%7DH4sIAAAAAAAAAF2Q3XLbIBCF34Vr44EFgfCdJ-PWduu4nijEtwiQzVR_lVCcSafvXuKkzSR7tct3zllmfyMTHFogyB_itg6duEEz1JuT18FfNldCgGKSYSAYALMMM4oFAewqZncTOayr--b5KzljRwEYI056WSpVCSFFVTJlc6WEYcalYP_U-yH41vpr9Op4922vC7jld_oDXT15O8XQtVcZzYmM4kQmjkkqmKxzVTP4c0278RdpCCjZffAv7X_zeO4uhW_62kSvHzRdbm-_S5lpRpPjbMZ_DC3iMPkZim_z1bwv8h9sr9e7Gziid6bNEEwb3yR6A0KuisNmrZLGmqY34dSOaNFOdT1Dj2EMr9JH_OmW_KVRucQ_dfxSrJ_v-f6w7clxhzNecWFBqZJLAmXmKK9KxSyVzuReyrQo9ClS0jkwOudzKkR6m0Y_LE--jQm5S3j5cqzRggpInEpG__wF6V2ZAPABAAA). I believe that in order to be an effective "data bridge", you must be a "translator of ethical discussion". In Kennedy's article from this week's reading materials, Supreme Court Justice Ginsburg stated that "it is race consciousness, not blindness to race, that drives such plans" (regarding Texas' percentage plan). To me, "consciousness" demands accounting for the nuance of humanity, the qualitative "thick data" that makes up our society, while "blindness" has a perspective of absolutism, similar to how an arbiter would view the world. Further supporting, the application of the "Pool of applicants test" and "Rate of hiring analysis" from the "IRAC Employment Law-1" slides used to detect disparate impact is something that a "translator of ethical discussion" would do and not an "arbiter of truth". The application of these regulations investigate the minutia behind the hiring process. They do not blindly trust in the hiring algorithms, which is what Cathy is lobbying for us to not do. Being a "translator of ethical discussions" will be a tough role to fill, but I believe it will be essential for us to take up this challenge and pave the way in our rapidly evolving digital landscape. 
+
+    1. Something from the video
+        - 
+    2. Something from the articles we read
+        - Quote Ginsburg!!
+        - Supreme Court Justice Ginsburg favored "race consciousness" over "race neutrality", affirming that there are "positive qualities to a diverse student body"
+    3. Disparate treatment vs. Disparate impact
+        - Pool of applicants test
+        - Rate of hiring analysis
+
+
+
+
+
+

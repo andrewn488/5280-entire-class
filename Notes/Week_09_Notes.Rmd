@@ -1,0 +1,260 @@
+---
+title: "Week-9-Notes"
+author: "Andrew Nalundasan"
+date: "8/20/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Vox - How facial recognition became the most feared technology in the US
+
++ bipartisan legislators are trying to get ahead of FR tech instead of catching up to it
+
+    - potential to infringe on American liberties
+    - will affect free speech
+    
++ pause on federal government's acquisition of new FR tech
+
++ 4 states currently have active legislation around FR
+
+    - more cities and states will regulate the tech in the near future
+    
++ iPhones OK because consumers can opt out of using FR
+
+    - "Outlawing FR" means not giving the data subject the chance to opt out of its use
+    - when law enforcement agencies use FR tech, the general public is often unaware of their faces being monitored, scanned, or tracked
+        - this is why lawmakers are setting higher bar for government agencies from using these tools
+    - police departments use FR to match DL pictures with mugshots
+        - recent uptick in regulation is slowing down this process
+    
++ China's use of FR tech: "automated racism"
+
++ Government ability to identify or track people while they're at a protest or at a Doctor's office 
+
++ Johnny Law can track anyone they deem suspicious without substantial evidence that they've committed a crime
+
+    - No due process!
+    
++ FR is less accurate when applied to women of BIPOC individuals
+
++ Oregon police was using matches with Amazon's tech below 99% threshold to investigate suspects
+
++ Baltimore police used FR to identify and ARREST people who protested Freddie Gray's police brutality death
+
++ SF was first city to ban city government use of FR tech
+
+    - city agencies need city approval prior to rolling out surveillance tech
+        - automatic license plate scanners
+        - camera enabled drones
+        
++ ban on FR tech is gaining momentum across the country
+    
+    - DC politicians are taking the threat of FR misuse more seriously 
+    
+    
+# Physiognomy's New Clothes
+
+1. Comment on the idea or insight most interesting to you from "Physiognomy's New Clothes," -- How does "The Racist History Behind Facial Recognition" challenge or affirm that insight? (**ONLINE DISCUSSION**)
+
+
+## Introduction
+
++ "Evidence" confirming Villella as a bandit: 
+
+    - a depression on the occiput of the skull reminiscent of the skulls of "savages and apes"
+    - asymmetric face
+    - Cesare Lombroso (scientist and surgeon) believed bandits were a primitive type of people, prone to crime. Like a disease
+        - "criminals were born criminals"
+    - lead to bias that southern Italians were racially inferior to northern Italians
+    
++ Physiognomy: practice of using people's outer appearance to infer inner character
+
+    - aka "scientific racism"
+    
++ Wu and Zhang's paper "Automated Inference on Criminality Using Face Images"
+
+    - ML techniques can predict the likelihood that a person is a convicted criminal with nearly 90% accuracy using nothing but a driver's license-style face photo
+    
++ It is urgent that developers, critics, and users of AI understand both the lmits of the tech and the history of physiognomy
+
+## ML for understanding images
+
++ supervised learning: 
+
+    - working thru a large number of labelled examples
+    - example images paired with the desired outputs for each
+    
++ overfitting
+
+    - happens when the machine is able to memorize the right answers to individual training examples without *generalizing*
+    - generalizing:
+        - learning an underlying pattern that will hold when tested on different data
+    - avoid overfitting: 
+        - test performance of the system on a random subset of the labelled data (not used during trianing)
+    - overfitting: model has just memorized the training examples
+    - example: students memorizing answers to specific questions on an exam but fail when the exam asks similar but different questions
+    - biggest challenge: obtaining enough labelled data to both train and test a system
+    
++ "I answer in this way because that is how my neurons are wired together"
+
++ Example about an ML model predicting the year a photo was taken
+
+    - Deep Learning details for AI since 2006
+    - Low-level properties like colors, pixels, style of pram, model of cars, hair styles, fonts, etc.
+    - Power of ML: the system itself learns what to look for
+    - Peril of ML: lack of understanding of what the task is actually measuring, or what patterns the system is actually finding
+        - inscrutable systems!
+    
++ ML does not distinguish between correlations that are causally meaningful and ones that are incidental
+
++ "nice" vs. "mean" faces
+
+    - "trustworthy" vs. "untrustworthy" faces
+
+## Scientific Racism Today (Quartz) + Echoes of the Past (NY Times) + Representation (Week 3?) --> Algorithmic Bias (Joy Buolamwini) + Bias for people that look like you (Week 5?)
+
++ faception: profiles people and reveals their personality based on their facial image
+
+    - perhaps link "affect recognition" to this and link it with physiognomy?
+    
++ faception judgements: 
+
+    - "In some ways, they're laughable," she said. "In other ways, the very part that makes them laughable is what makes them so concerning."
+    
++ homophily - the pervasive cognitive bias causing people to identify with and prefer people similar to themselves
+    
+    - Darwin was the same as Shakespeare, Isaac Newton, Thomas Clarkson, John Howard - educated white males
+
+## The fallacy of objectivity
+
++ objective algorithms leads to algorithmic bias
+
+    - unbiased models become biased depending on the data that it models predictions on
+    - this goes back to underrepresentation in a dataset 
+    - this leads to algorithmic bias, especially when the model is inscrutable
+    
+
+
+    
++ Nazi "race scientists" practicing physiognomy on jews - measuring their noses
+
++ Wu and Zhang's paper aims to bring back physiognomy by deep-learning facial recognition
+
+    - Profiling people and reavealing personality traits based on physical facial image
+    
++ Aussie photographers spending time with the same man but given different false information about the man. The photographers capture the man's "essence" differently
+
++ criminal mugshots being compared to photos of college students on college campuses
+
++ Essentialism - the (incorrect) idea that people have an immutable core or essence that fully determines both appearance and behavior
+
++ the absence of women doing higher math was the evidence that they could not do it
+
+    - the absence of POC and women in higher positions was the evidence that they could not do it
+    
++ Criminality: 
+
+    - Essential: genetically inherited
+    - Non-Essential: environmental, situational , contextual, circumstantial 
+    
++ US incarcerations make up 25% of global prison population
+
+    - Disproportionately poor and POC
+    
++ the evidence suggests that in many cases, we will do much better if were to ignore the faces and rely on general knowledge about the world
+
++ key takeaways: 
+
+    - A machine learned “criminality detector” can pick up on the same things humans pick up on when we look at an image of a face
+    - When viewing “criminal” and “non-criminal” face images, what such a detector picks up on is likely related to negative face perceptions
+    - Human judges who produce criminality “ground truth” data are themselves strongly influenced by this “untrustworthy” look
+    - The “untrustworthy” look seems not to be a good predictor of actual untrustworthiness — and is unlikely to be predictive of criminality
+    
++ predictive policing - reinforces bias from past data that black neighborhoods have higher likelihood of crimes, so police should patrol there more often
+
++ on a scientific level, ML can give unprecedented insight into patterns that previously was in the domain of intuition or folk wisdom
+
++ on a practical level, ML can be misused, often unintentionally. Traps: 
+
+    - Lack of insight into sources of bias in the training data
+    - Lack of a careful review of existing research in the area, especially outside the field of machine learnin
+    - Not considering the various causal relationships that can produce a measured correlation
+    - Not thinking through how the machine learning system might actually be used, and what societal effects that might have in practice.
+  
++ Deep learning based on superficial features is decidedly not a tool that should be deployed to “accelerate” criminal justice; attempts to do so, like Faception’s, will instead perpetuate injustice.
+    
+# Blockchain Solution to Digital Identity
+
++ Data makes up components of your digital identity
+
++ Big internet companies don't pay for their raw materials. Their raw materials are voluntarily given up by us
+
++ We bear the risk and responsibility for data leaks. Big internet companies aren't effected as much as we are
+
++ Identity is endowed by birth
+
++ Why should any government get to rubber-stamp who we are?
+
++ the ultimate solution must exist independent of: 
+
+    - Corporations
+    - Government
+    - Executives
+    - Political Parties
+    
++ to be inclusive, must be user-friendly with low-tech mobile interface and low-cost dispute resolution
+
++ 3 actions: 
+
+    1. Data Governance - increase governance mechanisms of *information assets*
+    2. Deprecate functionality that collects and stores customer data
+        - Return all data to customers and destroy all data (unlikely)
+        - Migrate all data to distributed storage systems, then transfer control to customers (unlikely)
+    3. Develop a way to work with anonymized data
+        - I don't agree with this. This will lead to even more inscrutasble systems
+        
+
++ Identity Commons: (Tragedy of the Commons)
+
+# The Racist History Behind Facial Recognition
+
++ Physiognomy and phrenology to use facial structure and head shape to assess character and mental capacity
+    
++ we still haven't learned that faces do not contain some deeper truth about the people they belong to
+
++ the relationship between a face and our sense that it is threatening (or friendly) is "between appearance and impressions, not between appearance and character."
+
++ "In some ways, they're laughable," she said. "In other ways, the very part that makes them laughable is what makes them so concerning."
+
++ physiognomy: Mug shot (facial expression and head dimensions) > fingerprints > facial recognition <- these all represent your identity
+
++ "Haunted data persists today" - Joy Buolamwini
+
+    - IBM fed their FR tech with photos from Flickr
+        --> Why not same ethical uproar as OK Cupid case?
+
++ Amazon can be used "to guess a person's identity, gender, age and emotional state" (1/10th cent per picture processed)
+
+    - Face++ guesses race too (for a nominal fee)
+    
++ "Affect Recognition" being developed - ML to make predictions based on emotion
+
+    - Being applied in unethical and irresponsible ways 
+    
++ 
+
+
+
+
+
+
+
+    

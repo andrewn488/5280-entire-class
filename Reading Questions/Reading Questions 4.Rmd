@@ -1,0 +1,34 @@
+---
+author: "Andrew Nalundasan"
+for: "OMSBA 5280, Seattle University"
+title: "Reading Questions 4"
+date: "July 12, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+1. Now that you have read the materials in this unit on surveillance, what concerns/thoughts/feelings do you have as an individual living in this digital era? 
+
+I feel like I am constantly being watched. With everything being monitored online like Google searches, purchase history, zip code, key stroke (and even typos), it is difficult to believe that anything is truly private. I feel like I am left with only two choices: either boycott big data by completely unplugging, or try to outsmart it. The first layer discussed in Katarzyna's article is the only layer that you have control over since it is what you share online, the data inputs layer. My initial idea was to simply withhold data inputs and boycott handing over my data. But then she goes on to make the point that it would still be possible to fall victim to quantitative bias if your "social network is not robust enough". Conversely, providing false data to the big data algorithms could develop biases on me that I would not be aware of. 
+
+This leads me to have a feeling of helplessness because no matter what I do, big data will try to define who I am without letting me have any autonomy over it. I think that having control or even just an influence in big data's definition of you would be a step in the right direction. Katarzyna proposes this exact sentiment when she states that the most natural way forward would be: "Instead of predicting who users are, listen to what they say". This is becoming more possible thanks to the GDPR/CCPA and the incentive for new companies to build their "competitive advantage on trust and transparency". In last week's materials, we learned that people prefer Apple over Android phones because people feel safer and trust Apple privacy policies over Android's. People in the US want their data kept private and the companies that are able to provide this sense of security will have the advantage of being a "trustworthy" company where people will continue to spend their time and money.   
+
+
+2. Do your concerns/thoughts/feelings gain influence from the law and ethical values you are learning about? 
+
+I do feel like we are gaining more protections from big data. Reading through Joy Buolamwini's interview and watching the documentary "Coded Bias", I do feel hopeful that we (the people) can push our government to put the necessary regulations in place to protect individuals from technological and quantitative bias. Buolamwini discusses the advent of the "algorithmic auditing" industry, and how it is highly necessary with today's technologies being used, but improvements of context must be made in order to be more effective. I feel optimistic that with the combination of algorithmic auditing, the FTC, and organizations like the Algorithmic Justice League, we will be able to influence systemic change within our rapidly evolving digital landscape. I feel like we are in the early stages of a revolution that is beginning to gain some real momentum. To frame my context of understanding, I put the GDPR and CCPA on one end of the spectrum, and China's Social Credit Score and Clearview AI on the other end. I believe that these four pillars combined with ethical values will help us guide the future of big data. 
+
+
+3. Do you think that laws such as those enforced by the FTC are sufficient to protect individual rights to privacy and autonomy?
+
+After reading the "FTC Report on Big Data", I do have a slight sense of security that current laws aim to protect individual rights to privacy and autonomy. This report was written in 2016, so I imagine that the FTC has learned more about how "organizations can use big data in ways that provide opportunity to underrepresented and under-served communities" within the past five years. I feel like this report had a balanced approach to the issue since there were many examples explained from both sides of the spectrum of how big data can benefit or discriminate individuals. So I feel like these laws are sufficient for now, and that we can continue to make improvements.
+
+The FTC website has news updates every few days, which indicates to me that there are constantly cases that are being worked. When first learning about the FTC, I assumed it only took on the hallmark cases such as the $5 Billion penalty on Facebook. But as recent as July 12, 2021, the FTC helped people suffering from student debt relief scams that two Florida companies were committing. I feel like the next step that the FTC can take is to figure out a way to be proactive about protecting individual rights. The examples in the FTC Report on Big Data and the FTC's website all seem to be reactive. They are always triggered by a series of events. I wonder if there could be a way to prevent these incidents from occurring in the first place. Perhaps "algorithmic auditing" as mentioned in Joy Buolamwini's interview is a step in the right direction for the FTC to become more proactive with shielding consumer rights.  
+
+

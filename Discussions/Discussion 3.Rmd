@@ -1,0 +1,32 @@
+---
+title: "Discussion 3"
+author: "Andrew Nalundasan"
+date: "7/9/2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+#### RE: Discussion 3
+ 
+***
+
+```{r include = FALSE}
+# Set chunk options for the file
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+# Course: OMSBA 5280 
+# Purpose: Discussion 3
+# Date: July 9, 2021
+# Author: Andrew Nalundasan
+```
+
+
+1. What lessons are here in Tricia Wang's TED talk for data professionals and organizational leaders?  Please provide examples from the talk to support your thoughts and positions in your answer.  
+
+Tricia's TED talk centered around the importance of something that she terms as "Thick Data". My current understanding between "Big Data" and "Thick Data" would be similar to the difference between Intelligence Quotient (IQ) and Emotional Quotient (EQ). "Big Data" represents the actual math that goes on under the hood of our algorithms (IQ) while "Thick Data" is the nuance of humanity from different cultures, personality types, and individual motivators (EQ). During Tricia's time doing field work in China, she was connecting with real people and learning about what they value and what motivates them. She stated that even the poorer demographics were willing to allocate half of their monthly wages towards having an iPhone (or even a knockoff). Learning that people were willing to do anything to get their hands on a smartphone was the "Thick Data" that she was looking for. She reported these insights to Nokia, but they failed to incorporate it with their "Big Data" insights because they saw no indication of a demand for smartphones. Nokia thought smartphones were a fad that would be fading away soon. This tells me that Nokia trusted the magic numbers coming out of the black box of "Big Data" and failed tapping into their EQ to understand their customers on a more personal level.  
+
+I think everyone from data professionals to organizational leaders will benefit from thinking about "Thick Data" more closely and integrating it into their decision making and predictions. It's so easy to become fixated on whatever our algorithms tell us because it's been normalized that they're usually right. But humans are more than just data points and statistics. Tricia defined quantification bias as "the unconscious belief of valuing the measurable over the immeasurable", and brought up examples about how the police and the NSA are relying on "Big Data" to make life impacting decisions on potentially innocent civilians, without having any "Thick Data" to confirm the predictions. She sums it up perfectly when she says that "relying on big data alone increases the chances we'll miss something, while giving us the illusion we know everything". Sooner or later, we will all fall victim to quantification bias in some form or fashion. "Thick Data" is necessary to tell the full story, rather than just relying on "Big Data" alone. 
+

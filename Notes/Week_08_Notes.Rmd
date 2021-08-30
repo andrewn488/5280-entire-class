@@ -1,0 +1,93 @@
+---
+title: "Week-8-Notes"
+author: "Andrew Nalundasan"
+date: "8/13/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data Ethics and Law in Organizations
+
++ Evolution of data
+
+    - Amount of data produced increased exponentially
+        - Advent of digital data
+        - data is now automatically created and stored by machines
+    - All the facts about what happened were lost from back in the day
+    - Today, all the facts about our day are recorded forever
+    
++ Evolution of business
+
+    - knowledge of customer needs is vital to run a business
+    1. Production Concept
+        - Thinking about what you can produce
+    2. Selling Concept
+        - Thinking about what you can sell them
+    3. Marketing Concept
+        - Target market has needs and wants
+        - Match the needs and wants of the customers with the features and benefits of what we're producing
+        - (Customer) Needs and wants <--> Features and benefits (Product)
+        - Businesses realize now that they need to understand the needs and wants of the employees
+        
++ Big Data Solutions (BDS)
+
+    - Understanding the needs and wants of customers **AS WELL AS** the needs and wants of the employees
+    - Because a massive amount of data exists, now we can do something
+    - x: "Now we can..." 
+        - discover client needs and wants
+        - discover employee needs and wants
+    
++ Big Data Solutions: (what we *can* do) 
+
+    - moves incredibly rapid 
+    
++ Law and Ethics: (what we *should* do)
+
+    - designed to move slowly (checks and balances)
+    - discipline is rooted in critical thinking
+    
++ Approaches: 
+
+    1. Laissez-Faire Approach
+        - Just let it happen
+        - Not thinking about the law and ethics. Just do it
+        - If it's out there, then let's do it
+        - BDS open up areas of risk and risks at new scale (exponentially larger)
+        - Not a great strategy
+        - super laid back
+    
+    2. Compliance Approach
+        - Look at existing law and community standards, and ensure practices and policies comply with these laws and regulations
+        - Problem 1: There is little or nothing to comply with
+        - Problem 2: Pits business success against values (ethics, law as a barrier or boundary)
+        - Problem 3: "bare minimum" is unlikely to be successful in the digital age
+            - "what is the *least* we can do?"
+    
+    3. Strategic Approach
+        - How can we leverage ethics and legal values to build our business?
+        - Values because they are about human well-being
+        - These are things that are good for people
+        
++ BDS are transforming all sectors!
+
+    - For-profit
+        - Shareholders (they get financial return on investment)
+    - Voluntary sector
+        - Non-profit organizations
+        - Non-governmental agencies
+        - Donors (they get emotional return on investment)
+        - "Clients" rather than "customers"
+    - Public sector
+        - governemnt agencies
+        - taxpayers instead of shareholders or donors (they're forced to pay taxes)
+        -"Citizens" rather than "clients" or "customers"
+        
+        
+        
