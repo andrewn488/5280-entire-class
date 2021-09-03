@@ -1,0 +1,76 @@
+---
+author: "Andrew Nalundasan"
+purpose: "OMSBA 5280, Seattle University"
+title: "5280 DTC"
+date: "September 2, 2021"
+output: 
+  word_document:
+    reference_docx: W2-2-2-2_word_memo_template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. The question of the Data Translation Challenge, is then, what, if anything, should Congress decide are permissible uses?
+
+Facial Recognition technology (FR tech) has the potential to be a highly efficient tool or a lethal weapon. Based on my research and current understanding of FR tech regulation, it is an incredibly sharp double edged sword. If FR tech continues to be used with limited legal regulation, private citizens will continue to lack the protections needed from the risks of the use of the technology. While there are many efficiencies to be gained through the use of FR tech, there are also life altering risks that come with its application. The analysis of this paper centers around the legal application of FR tech with regards to US Invasion of Privacy law. 
+There is no consistent or universal definition of Personally Identifiable Information (PII), and it is often misused and abused in industry. An individual’s faceprint is a unique identifier to a person’s identity as identifiable as a fingerprint. I believe that it is clear that unconsented surveillance on data subjects is an invasion of privacy. Facial data should be considered as PII and there must be protections for private citizens from what both public and private organizations are allowed to do with our personal data. Face data is biometric data that is irreplaceable, unlike non-biometric data such as credit card numbers or passwords that can easily be reset or recreated. Facial recognition surveillance could perpetuate into eternity because “unlike your cellphone or computer, there’s no way to turn off your face” (Ghaffary, 2019).
+
+I support the recent passing of legislation that banned the use of FR tech in San Francisco, CA, Oakland, CA, and Sommerville, MA (Ghaffary, 2019). These cities recently passed legislation to protect their citizens from the risks to privacy that FR tech is riddeled with. Private use of FR tech such as iPhone face identification is still permissible because the data subjects are first made aware of the FR tech use, and they are given the opportunity to opt-out of the functionality on their personal device. The opportunity to opt-out is the key to permissible uses of FR tech.
+
+There seems to be an endless supply of use cases for FR tech. “The choices are limited only by your imagination and the technology’s increasing capabilities” (Seepter, 2019). The smartest people in the industry are constantly coming up with new applications of FR tech that greatly benefits humanity. Many of the efficiencies that are gained from FR tech are in the realm of authentication and security. Customers can safely and securely make purchases by using their face as their form of payment. This is mostly done through purchases made online, in restaurants, at retail stores, and even hospitals (Seepter, 2019). Using your faceprint is also an added layer of security when accessing smart cars, websites such as dating sites, your hotel room, your bank account, traveling through airports, and when attending sporting and entertainment events. The application of FR tech in all of these scenarios simply use your faceprint as your form of identification, rather than using your fingerprint, driver’s license, PIN number, or passport. Face data is biometric data that people are unable to fake (for now). There is no telling what type of future technological advances will be made that could potentially help to counterfeit face data. New applications of technology is always followed with the other half of the smartest people in the industry that figure out ways to cheat the system. We have seen this with counterfeit money, hacking bank accounts, and identity theft.
+
+Along with the benefits that FR tech can offer, there are also many unforeseen risks. FR tech has reintroduced interest in Physiognomy among certain people. Using “security” as a motivation, there have been many attempts at applying FR tech to classify an individual as a criminal to predict the likelihood that the individual will commit a crime. The FR tech tells law enforcement who these potential criminals are, enabling them to take action prior to an incident occurring, without the data subject’s knowledge that they are being monitored. I believe this is a blatant violation of American values in all regards. This is a violation to the constitutional right to due process and nullifies the intention of the American judicial system considering citizens to be innocent until proven guilty. These are the building blocks to our country, and Physiognomy threatens to steal these values from the people of this country. Accuracy rates on these algorithms are significantly lower for the women and BIPOC populations, for example when Amazon’s FR tech falsely matched 28 members of congress with criminal mugshots (Snow, 2018). These inaccuracies can be laughable, but “the very part that makes them laughable is what makes them so concerning” (Sahil, 2019). FR tech has the potential to make life altering decisions on humans that are not given a fair chance.
+
+A widespread issue with “big data” is people having blind faith in inscrutable systems (Selbst, Barocas 2018). The inscrutability of systems developed with artificial intelligence (AI) and machine learning (ML) models add to the magnitude of the risks of the use of FR tech. People and organizations blindly accept the classifications coming from AI and ML models, completely missing the fact that these models are often biased in multiple ways. If the AI and ML models are trained by using biased training data, the predictions that come from the model will also be biased (Chinoy, 2019). Groups like the Algorithmic Justice League (AJL) led by Joy Buolamwini and Cathy O’Neil are leaders in the algorithmic auditing space where biases and racism found in algorithms are audited to be more equitable for people of all backgrounds and walks of life.
+
+AI and ML advancement is typically motivated by an end product that is of great benefit to humans, but these applications often leave a wake of biased destruction from their deployment. This has been witnessed through apps such as “Street Bump” in Boston, MA (Crawford, 2013), or FR tech that only recognizes white faces and not black faces (Buolamwini, 2016). The ends that these applications provide solutions for are certainly works of the future and helps humans, but the means to which they are created does not always foster a landscape of equity. This is why I believe that FR tech needs heavy regulation implemented as soon as possible, so that the omniscience of “big data” can be minimized. “Big Data” continues to grow as more data is acquired, and it is estimated that 5 billion gigabytes of data is created every 10 seconds as of 2015.
+
+It is groups such as the AJL that are bringing ethics into the continued advancement of “big data” technology. Regulations such as the GDPR, CCPA, and WaPA are barely scratching the surface of providing the necessary protections to people from “big data” automating their destiny for them. Applications such as “Clearview AI” are being leveraged by armed forces and law enforcement to utilize their FR tech to identify individuals in photos on the internet. As of March 2019, the company claims to have scored a 100% accuracy rating (Wasson, 2021). The model of course, is the company’s intellectual property and would never allow for an algorithmic audit by a group such as the AJL. So, the claim to a 100% accurate model could be “accurate” and biased according to their terms, or it could be completely omniscient. My bet is with the former.
+
+It is the rise of technology companies such as Clearview AI that must put ethics into the forefront of their mission statement and use a strategic approach on how they leverage “big data”. It is safe to assume that whatever product you are working on developing, there are likely other teams out there with the same or similar idea. The rationalization of “futility” can be found all over the tech world. Most people and teams believe that their motivations are grounded in truth and so they often forget to constantly ask themselves whether or not the product that they are developing is ethical or not. The rationalization of “hurry” is also typically part of the reason why many teams forget to keep ethics at the forefront of the team’s minds. Teams are racing to develop the next big product before someone else beats them to it. Half of the people are trying to build something better together, and there are the people that just want to watch the world burn. I believe the privacy concerns surrounding FR tech far outweigh the potential efficiencies to be gained by the application of the technology. 
+
+FR tech’s convenience and benefits are valuable, but it prevents individuals from being their fully authentic selves. Their likes, dislikes, and reactions are totally controlled by whatever the government considers “good behavior”.  People’s civil liberties are taken away and controlled by the government when becoming a fully surveillance state. This side of the extreme is an unethical way for a government to operate. This is why I believe the US should pass federal legislation that follows the precedent set by San Francisco, CA, Oakland, CA, and Sommerville, MA. 
+
+Applications of FR tech should be limited to authentication and security scenarios in the Public, Private, and Nonprofit sectors. We can use the Chinese Social Score (CSS) as a benchmark of one extreme of the FR tech spectrum (Shomphole, 2019). The CSS is being used by the Chinese government to drive behaviors of private citizens. If an individual has a low social credit score, they are doomed to the constraints of being associated with that social stigma. The types of loans that they get or the opportunities that they are given at work would be sub-optimal to what people in the higher social credit score bracket are offered. FR tech has introduced a social class civilization in China. My greatest fear with widespread FR tech in the US is the amount of control the government would have over private citizens, as we have seen develop in China. I do not believe that Americans would allow for centralized government to dictate what an individual can and cannot do. The political polarization that this country has seen through the implementation of simple mask and social distancing protocol is evidence enough that Americans simply will not allow government to drive behaviors. 
+
+Further research should be done to continue monitoring the effects that FR tech has on behavior at the local community scale. Using the legislation passed in California and Massachusetts as a benchmark could help us understand the impacts FR tech has on people. These bans on FR tech paired with privacy legislation such as California’s CCPA and Illinois’ Biometric Information Privacy Act could be researched to detect the effects these regulations are having on local populations. The behaviors witnessed at the local level will reveal insights into how FR tech would be received on a universal scale.
+
+Permissible uses of FR tech must come with informing the data subject that they are being monitored and allowing them to opt-out if they desire. This promotes awareness of one’s environment and prevents every day “sting” operations on innocent citizens. Congress should allow people to have the freedom to choose to do the right thing, rather than intimidating people to do the right thing because they know they are being watched. I believe our country was founded on people choosing to do the right thing and this expectation must remain. Otherwise, motivations behind actions will be strictly because they know they are being monitored, which does not foster authentic or genuine behaviors. The cultural bi-product that would synthesize from a shift to reliance on FR tech would be devoid of the American values that this country was founded on. Despite what we see in the media each day, I believe that the world is a good place full of good people that do not need to be watched.
+
+
+**References**: 
+
+Andrew D. Selbst, Solon Barocas, June 8, 2018, "THE INTUITIVE APPEAL OF EXPLAINABLE MACHINES", file:///C:/Users/andre/OneDrive/SU/OMSBA%205280/Week%2005/Explainable%20Machines-1.pdf
+
+Blaise Aguera y Arcas, Margaret Mitchell, Alexander Todorov, May 6, 2017, "Physiognomy’s New Clothes", https://medium.com/@blaisea/physiognomys-new-clothes-f2d4b59fdd6a
+
+Lydia Shomphole, Creepy Technology, March 5, 2019, "SORRY, YOUR HUMAN RATING SUCKS - CHINA'S SOCIAL CREDIT SCORE SYSTEM", https://www.lshompole.com/creepy-tech/s1e3-social-credit-score
+
+Don Tapscott, September 12, 2019, "Digital Feudalism: Taking Your Identity Back", https://qz.com/1706221/don-tapscott-on-using-blockchain-to-take-back-your-digital-identity/?te=1&nl=the-privacy%20project&emc=edit_priv_20190917
+
+Elizabeth J. Kennedy, J.D., "Using Data to Drive Racial Equity", https://seattleu.instructure.com/courses/1598497/files/67104452/download?wrap=1
+
+Jacob Snow, July 26, 2018, "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots", https://www.aclu.org/blog/privacy-technology/surveillance-technologies/amazons-face-recognition-falsely-matched-28
+
+Jim Halpert, June 28, 2018, "Data Protection, Privacy and Security Alert", https://www.dlapiper.com/en/us/insights/publications/2018/06/california-privacy-law-poised-to-alter-us-privacy-landscape/
+
+Joy Buolamwini, November 2016, "How I'm Fighting Bias in Algorithms", https://seattleu.instructure.com/courses/1598497/pages/week-10-videos?module_item_id=17311051
+
+Kate Crawford, April 1, 2013, "The Hidden Biases in Big Data", https://hbr.org/2013/04/the-hidden-biases-in-big-data
+
+Mark Wasson, May 27, 2021, "Tests of Clearview AI facial recognition software raises concerns in Minnesota", https://www.securityinfowatch.com/access-identity/biometrics/facial-recognition-solutions/news/21224667/tests-of-clearview-ai-facial-recognition-software-raises-concerns-in-minnesota
+
+Mitchell Noordyke, March 26, 2019, "The state Senate version of the Washington Privacy Act: A summary", https://iapp.org/news/a/the-state-senate-version-of-the-washington-privacy-act-a-summary/
+
+Moritz Hardt, September 26, 2014, "How big data is unfair", https://medium.com/@mrtz/how-big-data-is-unfair-9aa544d739de
+
+Sahil Chinoy, July 14, 2019, "Facial Recognition's Racist History", https://www-proquest-com.proxy.seattleu.edu/docview/2257520378?accountid=28598&pq-origsite=primo
+
+Shirin Ghaffary, August 9, 2019, "How facial recognition became the most feared technology in the US", https://www.vox.com/recode/2019/8/9/20799022/facial-recognition-law
+
+Urmet Seepter, February 21, 2019, "18 Surprising Uses of Facial Recognition You Didn’t Know Existed", https://hackernoon.com/18-surprising-uses-of-facial-recognition-you-didnt-know-existed-af18244ac88
+
+
+
